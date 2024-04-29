@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+        zoom: 95%; /* Define o zoom para 150% */
+        
+}
+#simple-list-example a, #scrollspy p, h3, p, h4, .link{
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+#right-link a{
+    color: #fff;
+}
+
+
+.like-game-content, .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.like-game-content .like-games{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background: linear-gradient(to right, rgba(62, 236, 58, 0.04), rgba(58, 97, 236, 0.1));
+}
+
+.like-games .img1{
+    width: 322px;
+    height: 213px;
+}
+.like-games .img2{
+    position: absolute;
+    width: 144px;
+    height: 249px;
+}
+.like-games .img3{
+    position: absolute;
+    width: 221px;
+    height: 250px;
+}
+
+
+/*-------------------Responsividade----------*/
+
+@media(max-width: 1100px){
+    .like-game-content, .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .like-games .img2{
+        position: relative;
+    }
+    .like-games .img3{
+        position: relative;
+    }
+}
+@media(max-width: 700px){
+    .like-game-content, .cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+}

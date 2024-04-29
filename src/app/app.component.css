@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    zoom: 95%;     
+}
+@media(min-width: 1920px){
+    *{
+        margin: 0;
+        zoom: 100%;     
+    }
+}
+#simple-list-example a, #scrollspy p, h3, p, h4, .link{
+    color: #fff;
+    text-decoration: none;
+}
+#active2{
+    background: rgba(75, 31, 214, 1);
+    border: none;
+    width: 100px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+#card{
+    border: none;
+}
+#banner{
+    background: linear-gradient(180deg, rgba(11, 10, 19, 0) 0%, #0B0A13 100%);
+    border: none;
+}
+#bannerimage{
+    width: 100%;
+    border-radius: 8px;
+}
+#banner-title{
+    font-size: 50pt;
+    font-weight: bold;
+}
+#buttons{
+    margin: 30px 0 30px 0px;
+    flex-wrap: wrap;
+}
+#buttons a{
+    margin-right: 8px;
+    margin-top: 6px;
+}
+#buttons a:hover{
+    background-color: #fff;
+    color: #000;
+}
+#button-dropdown li:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*-------------------Responsividade----------*/
+
+@media(max-width: 1100px){
+    app-scrollspy{
+        display: none;
+    }
+    #divbanner{
+        width: 100%;
+    }
+}
+@media(max-width: 700px){
+    #banner-title{
+        font-size: 30pt;
+    }
+}
+@media(max-width: 399px){
+
+    #banner-btn{
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+}

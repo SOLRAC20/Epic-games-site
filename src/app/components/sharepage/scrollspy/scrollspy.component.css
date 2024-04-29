@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    zoom: 95%;
+}
+#simple-list-example a, #scrollspy p, h3, p, h4, .link{
+    color: #fff;
+    text-decoration: none;
+}
+#simple-list-example a img{
+    margin: 1px;
+}
+#simple-list-example a:hover{
+    background: rgba(75, 31, 214, 1);
+}
+#simple-list-example a p{
+    margin-left: 5px;
+}
+#active{
+    background: rgba(75, 31, 214, 1);
+    border: none;
+}
+#Folowing{
+    margin: 5px;
+}
+#Folowing img{
+    width: 30px;
+    border-radius: 50%;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
