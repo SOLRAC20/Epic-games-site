@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Recomendação do Desenvolvedor
+
+# Nome do Projeto
+
+Epic Games Site
+
+## Instalação
+
+* Requesitos
+
+Lista de pré-requisitos (Node.js v21.5.0, Angular CLI: 17.3.6).
+
+Para instalar e executar este projeto localmente, siga estas etapas:
+
+1. Clone este repositório.
+
+2. Instale as dependências com `npm install`.
+
+3. Instale o ferramenta Bootstrap com o comando: npm install `npm install bootstrap@5.3.2`
+
+3. Após a instalação, execute o servidor de desenvolvimento com `ng serve`.
+
