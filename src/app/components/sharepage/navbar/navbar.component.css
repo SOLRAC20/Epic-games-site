@@ -1,0 +1,15 @@
+#navlist li a{
+    color: #fff;
+}
+#search{
+        outline: none;
+        border: none;
+}
+#Folowing img{
+    width: 30px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
